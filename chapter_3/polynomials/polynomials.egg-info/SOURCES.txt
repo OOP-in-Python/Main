@@ -1,0 +1,7 @@
+setup.py
+polynomials/__init__.py
+polynomials/polynomials.py
+polynomials.egg-info/PKG-INFO
+polynomials.egg-info/SOURCES.txt
+polynomials.egg-info/dependency_links.txt
+polynomials.egg-info/top_level.txt
