@@ -69,6 +69,8 @@ class Polynomial:
       coefs += self.coefficients[common:] + other.coefficients[common:]
 
       return Polynomial(coefs)
-
     else:
       return NotImplemented
+      
+  def __radd__(self, other):
+    return self + other
